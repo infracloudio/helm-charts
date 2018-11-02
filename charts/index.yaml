@@ -2,18 +2,18 @@ apiVersion: v1
 entries:
   alpine:
   - appVersion: "3.3"
-    created: 2018-11-02T12:08:53.961896435+05:30
+    created: 2018-11-02T15:17:57.951378328+05:30
     description: Deploy a basic Alpine Linux pod
-    digest: 2eb339f744dfa8c1825c2e708a757e92279a2865bab990b823d3807a42165913
+    digest: a822bf67c0776b108fcd9abfd6978bf0c99c0ea9667f77a3542c1d7dbe485823
     home: https://github.com/helm/helm
     name: alpine
     sources:
     - https://github.com/helm/helm
     urls:
-    - https://infracloudio.github.io/helm-charts/charts/alpine-0.1.0.tgz
+    - https://github.com/infracloudio/helm-charts/charts/alpine-0.1.0.tgz
     version: 0.1.0
   nginx:
-  - created: 2018-11-02T12:08:53.962378216+05:30
+  - created: 2018-11-02T15:17:57.951766107+05:30
     description: A basic NGINX HTTP server
     digest: 4a6c9c501ce41afbb97f39bd74581cc2ca0aa18c8cd2ebc1fbfb18fa7c828664
     home: https://github.com/helm/helm
@@ -22,7 +22,6 @@ entries:
     - nginx
     - www
     - web
-    kubeVersion: '>=1.2.0'
     maintainers:
     - email: mbutcher@deis.com
       name: technosophos
@@ -30,6 +29,6 @@ entries:
     sources:
     - https://hub.docker.com/_/nginx/
     urls:
-    - https://infracloudio.github.io/helm-charts/charts/nginx-0.1.0.tgz
+    - https://github.com/infracloudio/helm-charts/charts/nginx-0.1.0.tgz
     version: 0.1.0
-generated: 2018-11-02T12:08:53.961513321+05:30
+generated: 2018-11-02T15:17:57.950922119+05:30
