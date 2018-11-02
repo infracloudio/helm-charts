@@ -3,6 +3,6 @@ image:
   tag: 3.3
   pullPolicy: IfNotPresent
 deployment:
-  name: qa-alpine
+  name: vb-alpine
 
 restartPolicy: Never
