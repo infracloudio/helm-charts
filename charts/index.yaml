@@ -1,7 +1,19 @@
 apiVersion: v1
 entries:
+  alpine:
+  - appVersion: "3.3"
+    created: 2018-11-02T12:08:53.961896435+05:30
+    description: Deploy a basic Alpine Linux pod
+    digest: 2eb339f744dfa8c1825c2e708a757e92279a2865bab990b823d3807a42165913
+    home: https://github.com/helm/helm
+    name: alpine
+    sources:
+    - https://github.com/helm/helm
+    urls:
+    - https://infracloudio.github.io/helm-charts/charts/alpine-0.1.0.tgz
+    version: 0.1.0
   nginx:
-  - created: 2018-11-02T11:20:41.676912902+05:30
+  - created: 2018-11-02T12:08:53.962378216+05:30
     description: A basic NGINX HTTP server
     digest: 4a6c9c501ce41afbb97f39bd74581cc2ca0aa18c8cd2ebc1fbfb18fa7c828664
     home: https://github.com/helm/helm
@@ -20,4 +32,4 @@ entries:
     urls:
     - https://infracloudio.github.io/helm-charts/charts/nginx-0.1.0.tgz
     version: 0.1.0
-generated: 2018-11-02T11:20:41.676390387+05:30
+generated: 2018-11-02T12:08:53.961513321+05:30

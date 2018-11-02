@@ -1,0 +1,7 @@
+image:
+  repository: infracloud/alpine
+  tag: 3.3
+  pullPolicy: IfNotPresent
+deployment:
+  name: dev-alpine
+restartPolicy: Never
