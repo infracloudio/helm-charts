@@ -1,0 +1,7 @@
+image:
+  repository: infracloud/alpine
+  tag: 1.2.3
+  pullPolicy: IfNotPresent
+deployment:
+  name: stg-alpine
+restartPolicy: Never
